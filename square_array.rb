@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  chicken = [] 
+array.each do |i|
+  chicken << (i*i)
+end
+
+return chicken 
+
+
 end
